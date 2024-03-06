@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" href="/css/index.css">
-    <title>Weather App | Islom Pardaboyev</title>
 </head>
 
 <body>
+
+
 
     <div class="container">
         <div class="search-box">
@@ -16,9 +19,41 @@
             <input type="text" placeholder="Enter your location">
             <button class="fa-solid fa-magnifying-glass"></button>
         </div>
+
+        <div class="not-found">
+            <img src="/img/404.png" alt="">
+            <p>Oops! Invalid location</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="">
+            <p>Temperature</p>
+            <p>Description</p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
     </div>
 
+
+
+    <!-- FontAwesome JS Link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <!-- JS Link -->
     <script src="/js/index.js"></script>
 </body>
 
